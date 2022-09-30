@@ -14,7 +14,7 @@ class ThreadCount extends Thread{
 
 	    start();
 
-     }
+         }
 	 /**
 	  * Method to perform action for thread
 	  */
@@ -43,7 +43,7 @@ class ThreadCount extends Thread{
 
 	 }
 
-	}
+}
 
 class MultiThreading{
 
@@ -55,9 +55,9 @@ class MultiThreading{
 
 	        while(multiThread.isAlive()){
 
-	        System.out.println("Main Thread is executing");
+	          System.out.println("Main Thread is executing");
 
-	        Thread.sleep(1000); // sleep mode
+	          Thread.sleep(1000); // sleep mode
 
 	        }
 
@@ -65,7 +65,7 @@ class MultiThreading{
 
 	    catch(InterruptedException e){
 
-	    System.out.println("Main thread is interrupted");
+	         System.out.println("Main thread is interrupted");
 
 	    }
 
